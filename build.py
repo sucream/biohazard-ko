@@ -1,4 +1,4 @@
-"""Build everything: fonts, string tables, room text, the patch DLL.
+"""Build everything: fonts, string tables, room text, the patch DLL, the launcher.
 
 usage: python build.py [game_dir]
 """
@@ -26,6 +26,19 @@ def main():
                            '-o', os.path.join(ROOT, 'build', 'version.dll'),
                            'proxy.c', 'kopatch.c', 'version.def', '-luser32'], cwd=dll)
     print('built build/version.dll')
+    build_launcher(game)
+
+
+def build_launcher(game):
+    """build/4249100_Launcher.exe: the Steam launcher with a 'korean' entry."""
+    tool = os.path.join(ROOT, 'build', 'launcher_patch')
+    subprocess.check_call(['dotnet', 'build', '-c', 'Release', '-v', 'q', '-nologo', '-o', tool,
+                           os.path.join(ROOT, 'tools', 'launcher_patch')])
+    orig = os.path.join(game, 'kopatch_backup', '4249100_Launcher.exe')
+    if not os.path.exists(orig):
+        orig = os.path.join(game, '4249100_Launcher.exe')
+    subprocess.check_call(['dotnet', os.path.join(tool, 'launcher_patch.dll'), orig,
+                           os.path.join(ROOT, 'build', '4249100_Launcher.exe')])
 
 
 if __name__ == '__main__':

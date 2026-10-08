@@ -11,3 +11,5 @@ dll/*.pdb
 dll/ko_glyphs.h
 dll/ko_rooms.h
 dll/ko_strings.h
+tools/launcher_patch/bin/
+tools/launcher_patch/obj/
