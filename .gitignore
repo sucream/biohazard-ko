@@ -1,0 +1,13 @@
+4249100_Biohazard/
+work/
+__pycache__/
+*.pyc
+dist/
+build/
+patcher/payload/
+dll/*.dll
+dll/*.lib
+dll/*.pdb
+dll/ko_glyphs.h
+dll/ko_rooms.h
+dll/ko_strings.h

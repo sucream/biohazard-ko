@@ -1,0 +1,3855 @@
+[
+ {
+  "id": "item_4ccfa0",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccfa0",
+  "jp": "コンバットナイフ",
+  "ko": "컴뱃 나이프",
+  "sites": [
+   [
+    "4cd388",
+    "4ccfa0"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccfa9",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccfa9",
+  "jp": "ベレッタ",
+  "ko": "베레타",
+  "sites": [
+   [
+    "4cd38c",
+    "4ccfa9"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccfae",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccfae",
+  "jp": "ショットガン",
+  "ko": "샷건",
+  "sites": [
+   [
+    "4cd390",
+    "4ccfae"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccfb5",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccfb5",
+  "jp": "コルトパイソン",
+  "ko": "콜트 파이슨",
+  "sites": [
+   [
+    "4cd394",
+    "4ccfb5"
+   ],
+   [
+    "4cd398",
+    "4ccfb5"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccfbd",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccfbd",
+  "jp": "火炎放射器",
+  "ko": "화염방사기",
+  "sites": [
+   [
+    "4cd39c",
+    "4ccfbd"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccfc8",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccfc8",
+  "jp": "グレネードガン",
+  "ko": "그레네이드 건",
+  "sites": [
+   [
+    "4cd3a0",
+    "4ccfc8"
+   ],
+   [
+    "4cd3a4",
+    "4ccfc8"
+   ],
+   [
+    "4cd3a8",
+    "4ccfc8"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccfd0",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccfd0",
+  "jp": "ロケットランチャー",
+  "ko": "로켓 런처",
+  "sites": [
+   [
+    "4cd3ac",
+    "4ccfd0"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccfda",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccfda",
+  "jp": "ベレッタのマガジン",
+  "ko": "베레타 탄창",
+  "sites": [
+   [
+    "4cd3b0",
+    "4ccfda"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccfe4",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccfe4",
+  "jp": "ショットガンの弾",
+  "ko": "샷건 탄",
+  "sites": [
+   [
+    "4cd3b4",
+    "4ccfe4"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccfee",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccfee",
+  "jp": "ダムダム弾",
+  "ko": "덤덤탄",
+  "sites": [
+   [
+    "4cd3b8",
+    "4ccfee"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccff5",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccff5",
+  "jp": "マグナム弾",
+  "ko": "매그넘탄",
+  "sites": [
+   [
+    "4cd3bc",
+    "4ccff5"
+   ]
+  ]
+ },
+ {
+  "id": "item_4ccffc",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4ccffc",
+  "jp": "火炎放射器の燃料",
+  "ko": "화염방사기 연료",
+  "sites": [
+   [
+    "4cd3c0",
+    "4ccffc"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd00c",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd00c",
+  "jp": "グレネード弾",
+  "ko": "그레네이드탄",
+  "sites": [
+   [
+    "4cd3c4",
+    "4cd00c"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd014",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd014",
+  "jp": "硫酸弾",
+  "ko": "황산탄",
+  "sites": [
+   [
+    "4cd3c8",
+    "4cd014"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd01b",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd01b",
+  "jp": "火炎弾",
+  "ko": "화염탄",
+  "sites": [
+   [
+    "4cd3cc",
+    "4cd01b"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd022",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd022",
+  "jp": "空ビン",
+  "ko": "빈 병",
+  "sites": [
+   [
+    "4cd3d0",
+    "4cd022"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd027",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd027",
+  "jp": "水",
+  "ko": "물",
+  "sites": [
+   [
+    "4cd3d4",
+    "4cd027"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd02a",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd02a",
+  "jp": "UMB　No．2",
+  "ko": "UMB No.2",
+  "sites": [
+   [
+    "4cd3d8",
+    "4cd02a"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd034",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd034",
+  "jp": "UMB　No．4",
+  "ko": "UMB No.4",
+  "sites": [
+   [
+    "4cd3dc",
+    "4cd034"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd03e",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd03e",
+  "jp": "UMB　No．7",
+  "ko": "UMB No.7",
+  "sites": [
+   [
+    "4cd3e0",
+    "4cd03e"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd048",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd048",
+  "jp": "UMB　No．13",
+  "ko": "UMB No.13",
+  "sites": [
+   [
+    "4cd3e4",
+    "4cd048"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd053",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd053",
+  "jp": "YelloWー6",
+  "ko": "Yellow-6",
+  "sites": [
+   [
+    "4cd3e8",
+    "4cd053"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd05c",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd05c",
+  "jp": "NPー003",
+  "ko": "NP-003",
+  "sites": [
+   [
+    "4cd3ec",
+    "4cd05c"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd063",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd063",
+  "jp": "VーJOLT",
+  "ko": "V-JOLT",
+  "sites": [
+   [
+    "4cd3f0",
+    "4cd063"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd06a",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd06a",
+  "jp": "壊れたショットガン",
+  "ko": "망가진 샷건",
+  "sites": [
+   [
+    "4cd3f4",
+    "4cd06a"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd07a",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd07a",
+  "jp": "四角クランク",
+  "ko": "사각 크랭크",
+  "sites": [
+   [
+    "4cd3f8",
+    "4cd07a"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd083",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd083",
+  "jp": "六角クランク",
+  "ko": "육각 크랭크",
+  "sites": [
+   [
+    "4cd3fc",
+    "4cd083"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd08c",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd08c",
+  "jp": "エンブレム",
+  "ko": "엠블럼",
+  "sites": [
+   [
+    "4cd400",
+    "4cd08c"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd092",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd092",
+  "jp": "ゴールドエンブレム",
+  "ko": "골드 엠블럼",
+  "sites": [
+   [
+    "4cd404",
+    "4cd092"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd09c",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd09c",
+  "jp": "青い宝石",
+  "ko": "푸른 보석",
+  "sites": [
+   [
+    "4cd408",
+    "4cd09c"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0a4",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0a4",
+  "jp": "赤い宝石",
+  "ko": "붉은 보석",
+  "sites": [
+   [
+    "4cd40c",
+    "4cd0a4"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0ac",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0ac",
+  "jp": "楽譜",
+  "ko": "악보",
+  "sites": [
+   [
+    "4cd410",
+    "4cd0ac"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0b1",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0b1",
+  "jp": "オオカミのメダル",
+  "ko": "늑대 메달",
+  "sites": [
+   [
+    "4cd414",
+    "4cd0b1"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0ba",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0ba",
+  "jp": "オオワシのメダル",
+  "ko": "독수리 메달",
+  "sites": [
+   [
+    "4cd418",
+    "4cd0ba"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0c6",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0c6",
+  "jp": "除草剤",
+  "ko": "제초제",
+  "sites": [
+   [
+    "4cd41c",
+    "4cd0c6"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0cd",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0cd",
+  "jp": "バッテリー",
+  "ko": "배터리",
+  "sites": [
+   [
+    "4cd420",
+    "4cd0cd"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0d3",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0d3",
+  "jp": "MOディスク",
+  "ko": "MO 디스크",
+  "sites": [
+   [
+    "4cd424",
+    "4cd0d3"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0da",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0da",
+  "jp": "ウィンドクレスト",
+  "ko": "바람의 문장",
+  "sites": [
+   [
+    "4cd428",
+    "4cd0da"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0e3",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0e3",
+  "jp": "信号弾",
+  "ko": "신호탄",
+  "sites": [
+   [
+    "4cd42c",
+    "4cd0e3"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0ea",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0ea",
+  "jp": "スライド",
+  "ko": "슬라이드",
+  "sites": [
+   [
+    "4cd430",
+    "4cd0ea"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0ef",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0ef",
+  "jp": "ムーンクレスト",
+  "ko": "달의 문장",
+  "sites": [
+   [
+    "4cd434",
+    "4cd0ef"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0f7",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0f7",
+  "jp": "スタークレスト",
+  "ko": "별의 문장",
+  "sites": [
+   [
+    "4cd438",
+    "4cd0f7"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0ff",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0ff",
+  "jp": "サンクレスト",
+  "ko": "태양의 문장",
+  "sites": [
+   [
+    "4cd43c",
+    "4cd0ff"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd106",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd106",
+  "jp": "インクリボン",
+  "ko": "잉크 리본",
+  "sites": [
+   [
+    "4cd440",
+    "4cd106"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd10d",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd10d",
+  "jp": "ライター",
+  "ko": "라이터",
+  "sites": [
+   [
+    "4cd444",
+    "4cd10d"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd112",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd112",
+  "jp": "キーピック",
+  "ko": "키 픽",
+  "sites": [
+   [
+    "4cd448",
+    "4cd112"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd118",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd118",
+  "jp": "オイル",
+  "ko": "오일",
+  "sites": [
+   [
+    "4cd44c",
+    "4cd118"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd122",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd122",
+  "jp": "剣のカギ",
+  "ko": "검의 열쇠",
+  "sites": [
+   [
+    "4cd450",
+    "4cd122"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd128",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd128",
+  "jp": "鎧のカギ",
+  "ko": "갑옷의 열쇠",
+  "sites": [
+   [
+    "4cd454",
+    "4cd128"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd12e",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd12e",
+  "jp": "盾のカギ",
+  "ko": "방패의 열쇠",
+  "sites": [
+   [
+    "4cd458",
+    "4cd12e"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd134",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd134",
+  "jp": "兜のカギ",
+  "ko": "투구의 열쇠",
+  "sites": [
+   [
+    "4cd45c",
+    "4cd134"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd13a",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd13a",
+  "jp": "マスターキー",
+  "ko": "마스터키",
+  "sites": [
+   [
+    "4cd460",
+    "4cd13a"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd141",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd141",
+  "jp": "クローゼットのカギ",
+  "ko": "옷장 열쇠",
+  "sites": [
+   [
+    "4cd464",
+    "4cd141"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd155",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd155",
+  "jp": "002号室のカギ",
+  "ko": "002호실 열쇠",
+  "sites": [
+   [
+    "4cd468",
+    "4cd155"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd160",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd160",
+  "jp": "003号室のカギ",
+  "ko": "003호실 열쇠",
+  "sites": [
+   [
+    "4cd46c",
+    "4cd160"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd16b",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd16b",
+  "jp": "制御室のカギ",
+  "ko": "제어실 열쇠",
+  "sites": [
+   [
+    "4cd470",
+    "4cd16b"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd175",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd175",
+  "jp": "動力室のカギ",
+  "ko": "동력실 열쇠",
+  "sites": [
+   [
+    "4cd474",
+    "4cd175"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd186",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd186",
+  "jp": "机のカギ",
+  "ko": "책상 열쇠",
+  "sites": [
+   [
+    "4cd478",
+    "4cd186"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1a4",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1a4",
+  "jp": "白紙の本",
+  "ko": "백지 책",
+  "sites": [
+   [
+    "4cd47c",
+    "4cd1a4"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1ac",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1ac",
+  "jp": "最後の書（下）",
+  "ko": "최후의 책(하)",
+  "sites": [
+   [
+    "4cd480",
+    "4cd1ac"
+   ],
+   [
+    "4cd580",
+    "4cd1ac"
+   ],
+   [
+    "4cd580",
+    "4cd1ac"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1ba",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1ba",
+  "jp": "最後の書（上）",
+  "ko": "최후의 책(상)",
+  "sites": [
+   [
+    "4cd484",
+    "4cd1ba"
+   ],
+   [
+    "4cd584",
+    "4cd1ba"
+   ],
+   [
+    "4cd584",
+    "4cd1ba"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1c8",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1c8",
+  "jp": "救急用スプレー",
+  "ko": "구급 스프레이",
+  "sites": [
+   [
+    "4cd488",
+    "4cd1c8"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1d3",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1d3",
+  "jp": "血清",
+  "ko": "혈청",
+  "sites": [
+   [
+    "4cd48c",
+    "4cd1d3"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1d8",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1d8",
+  "jp": "レッドハーブ",
+  "ko": "레드 허브",
+  "sites": [
+   [
+    "4cd490",
+    "4cd1d8"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1df",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1df",
+  "jp": "グリーンハーブ",
+  "ko": "그린 허브",
+  "sites": [
+   [
+    "4cd494",
+    "4cd1df"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1e7",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1e7",
+  "jp": "ブルーハーブ",
+  "ko": "블루 허브",
+  "sites": [
+   [
+    "4cd498",
+    "4cd1e7"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1ee",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1ee",
+  "jp": "調合したハーブ",
+  "ko": "조합한 허브",
+  "sites": [
+   [
+    "4cd49c",
+    "4cd1ee"
+   ],
+   [
+    "4cd4a0",
+    "4cd1ee"
+   ],
+   [
+    "4cd4a4",
+    "4cd1ee"
+   ],
+   [
+    "4cd4a8",
+    "4cd1ee"
+   ],
+   [
+    "4cd4ac",
+    "4cd1ee"
+   ],
+   [
+    "4cd4b0",
+    "4cd1ee"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1f8",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1f8",
+  "jp": "ピッケル",
+  "ko": "곡괭이",
+  "sites": [
+   [
+    "4cd4b4",
+    "4cd1f8"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd1fd",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd1fd",
+  "jp": "通信機",
+  "ko": "통신기",
+  "sites": [
+   [
+    "4cd4b8",
+    "4cd1fd"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd204",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd204",
+  "jp": "館1Fの地図",
+  "ko": "저택 1F 지도",
+  "sites": [
+   [
+    "4cd4bc",
+    "4cd204"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd20e",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd20e",
+  "jp": "館2Fの地図",
+  "ko": "저택 2F 지도",
+  "sites": [
+   [
+    "4cd4c0",
+    "4cd20e"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd218",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd218",
+  "jp": "中庭の地図",
+  "ko": "안뜰 지도",
+  "sites": [
+   [
+    "4cd4c4",
+    "4cd218"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd222",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd222",
+  "jp": "中庭地下の地図",
+  "ko": "안뜰 지하 지도",
+  "sites": [
+   [
+    "4cd4c8",
+    "4cd222"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd230",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd230",
+  "jp": "寄宿舎の地図",
+  "ko": "기숙사 지도",
+  "sites": [
+   [
+    "4cd4cc",
+    "4cd230"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd23c",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd23c",
+  "jp": "研究所の地図",
+  "ko": "연구소 지도",
+  "sites": [
+   [
+    "4cd4d0",
+    "4cd23c"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd248",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd248",
+  "jp": "〓待状",
+  "ko": "초대장",
+  "sites": [
+   [
+    "4cd4d4",
+    "4cd248"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd24f",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd24f",
+  "jp": "未状",
+  "ko": "지령서",
+  "sites": [
+   [
+    "4cd4d8",
+    "4cd24f"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd254",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd254",
+  "jp": "トレヴァーの手記（1）",
+  "ko": "트레버의 수기(1)",
+  "sites": [
+   [
+    "4cd4dc",
+    "4cd254"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd264",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd264",
+  "jp": "トレヴァーの手記（2）",
+  "ko": "트레버의 수기(2)",
+  "sites": [
+   [
+    "4cd4e0",
+    "4cd264"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd274",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd274",
+  "jp": "トレヴァーの手記（3）",
+  "ko": "트레버의 수기(3)",
+  "sites": [
+   [
+    "4cd4e4",
+    "4cd274"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd284",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd284",
+  "jp": "トレヴァーの手記（4）",
+  "ko": "트레버의 수기(4)",
+  "sites": [
+   [
+    "4cd4e8",
+    "4cd284"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd294",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd294",
+  "jp": "トレヴァーの手記（5）",
+  "ko": "트레버의 수기(5)",
+  "sites": [
+   [
+    "4cd4ec",
+    "4cd294"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd2a4",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd2a4",
+  "jp": "トレヴァーの手記（6）",
+  "ko": "트레버의 수기(6)",
+  "sites": [
+   [
+    "4cd4f0",
+    "4cd2a4"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd2b4",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd2b4",
+  "jp": "トレヴァーの手記（7）",
+  "ko": "트레버의 수기(7)",
+  "sites": [
+   [
+    "4cd4f4",
+    "4cd2b4"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd2c4",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd2c4",
+  "jp": "トレヴァーの手記（8）",
+  "ko": "트레버의 수기(8)",
+  "sites": [
+   [
+    "4cd4f8",
+    "4cd2c4"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd2d4",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd2d4",
+  "jp": "最後の手記",
+  "ko": "마지막 수기",
+  "sites": [
+   [
+    "4cd4fc",
+    "4cd2d4"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd2de",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd2de",
+  "jp": "研究員の遺書",
+  "ko": "연구원의 유서",
+  "sites": [
+   [
+    "4cd500",
+    "4cd2de"
+   ],
+   [
+    "4cd504",
+    "4cd2de"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd2ea",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd2ea",
+  "jp": "飼育係の日誌",
+  "ko": "사육사의 일지",
+  "sites": [
+   [
+    "4cd508",
+    "4cd2ea"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd2f6",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd2f6",
+  "jp": "保安部長へのメール",
+  "ko": "보안부장에게 온 메일",
+  "sites": [
+   [
+    "4cd50c",
+    "4cd2f6"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd304",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd304",
+  "jp": "パスナンバー",
+  "ko": "패스 넘버",
+  "sites": [
+   [
+    "4cd510",
+    "4cd304"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd30b",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd30b",
+  "jp": "プラント42のメモ",
+  "ko": "플랜트 42 메모",
+  "sites": [
+   [
+    "4cd514",
+    "4cd30b"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd315",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd315",
+  "jp": "ファックス",
+  "ko": "팩스",
+  "sites": [
+   [
+    "4cd518",
+    "4cd315"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd31b",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd31b",
+  "jp": "スクラップブック",
+  "ko": "스크랩북",
+  "sites": [
+   [
+    "4cd51c",
+    "4cd31b"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd324",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd324",
+  "jp": "研究所・警備システム資料",
+  "ko": "연구소 경비 시스템 자료",
+  "sites": [
+   [
+    "4cd520",
+    "4cd324"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd338",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd338",
+  "jp": "研究員の手紙",
+  "ko": "연구원의 편지",
+  "sites": [
+   [
+    "4cd524",
+    "4cd338"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd344",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd344",
+  "jp": "有機化学実験ファイル",
+  "ko": "유기화학 실험 파일",
+  "sites": [
+   [
+    "4cd528",
+    "4cd344"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd355",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd355",
+  "jp": "バリーの写真",
+  "ko": "배리의 사진",
+  "sites": [
+   [
+    "4cd52c",
+    "4cd355"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd35e",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd35e",
+  "jp": "パスコード01",
+  "ko": "패스코드 01",
+  "sites": [
+   [
+    "4cd530",
+    "4cd35e"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd366",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd366",
+  "jp": "パスコード02",
+  "ko": "패스코드 02",
+  "sites": [
+   [
+    "4cd534",
+    "4cd366"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd36e",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd36e",
+  "jp": "パスコード03",
+  "ko": "패스코드 03",
+  "sites": [
+   [
+    "4cd538",
+    "4cd36e"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd376",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd376",
+  "jp": "植物学",
+  "ko": "식물학",
+  "sites": [
+   [
+    "4cd53c",
+    "4cd376"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd37d",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd37d",
+  "jp": "イングラム",
+  "ko": "잉그램",
+  "sites": [
+   [
+    "4cd540",
+    "4cd37d"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd383",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd383",
+  "jp": "ミニミ",
+  "ko": "미니미",
+  "sites": [
+   [
+    "4cd544",
+    "4cd383"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd075",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd075",
+  "jp": "クランク",
+  "ko": "크랭크",
+  "sites": [
+   [
+    "4cd548",
+    "4cd075"
+   ],
+   [
+    "4cd54c",
+    "4cd075"
+   ],
+   [
+    "4cd548",
+    "4cd075"
+   ],
+   [
+    "4cd54c",
+    "4cd075"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd0c3",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd0c3",
+  "jp": "薬",
+  "ko": "약",
+  "sites": [
+   [
+    "4cd550",
+    "4cd0c3"
+   ],
+   [
+    "4cd550",
+    "4cd0c3"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd11c",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd11c",
+  "jp": "館のカギ",
+  "ko": "저택 열쇠",
+  "sites": [
+   [
+    "4cd554",
+    "4cd11c"
+   ],
+   [
+    "4cd558",
+    "4cd11c"
+   ],
+   [
+    "4cd55c",
+    "4cd11c"
+   ],
+   [
+    "4cd560",
+    "4cd11c"
+   ],
+   [
+    "4cd554",
+    "4cd11c"
+   ],
+   [
+    "4cd558",
+    "4cd11c"
+   ],
+   [
+    "4cd55c",
+    "4cd11c"
+   ],
+   [
+    "4cd560",
+    "4cd11c"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd18c",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd18c",
+  "jp": "研究所のカギ",
+  "ko": "연구소 열쇠",
+  "sites": [
+   [
+    "4cd564",
+    "4cd18c"
+   ],
+   [
+    "4cd574",
+    "4cd18c"
+   ],
+   [
+    "4cd564",
+    "4cd18c"
+   ],
+   [
+    "4cd574",
+    "4cd18c"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd196",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd196",
+  "jp": "スペシャルキー",
+  "ko": "스페셜 키",
+  "sites": [
+   [
+    "4cd568",
+    "4cd196"
+   ],
+   [
+    "4cd568",
+    "4cd196"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd14b",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd14b",
+  "jp": "寄宿舎のカギ",
+  "ko": "기숙사 열쇠",
+  "sites": [
+   [
+    "4cd56c",
+    "4cd14b"
+   ],
+   [
+    "4cd570",
+    "4cd14b"
+   ],
+   [
+    "4cd56c",
+    "4cd14b"
+   ],
+   [
+    "4cd570",
+    "4cd14b"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd17f",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd17f",
+  "jp": "小さなカギ",
+  "ko": "작은 열쇠",
+  "sites": [
+   [
+    "4cd578",
+    "4cd17f"
+   ],
+   [
+    "4cd578",
+    "4cd17f"
+   ]
+  ]
+ },
+ {
+  "id": "item_4cd19e",
+  "group": "item_name",
+  "kind": "item",
+  "addr": "4cd19e",
+  "jp": "赤い本",
+  "ko": "붉은 책",
+  "sites": [
+   [
+    "4cd57c",
+    "4cd19e"
+   ],
+   [
+    "4cd57c",
+    "4cd19e"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8e68",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8e68",
+  "jp": "この装備だけで調査を\n進めていくのはむずかしいだろう<END:0>",
+  "ko": "이 장비만으로 조사를\n계속하기는 어려울 것 같다<END:0>",
+  "sites": [
+   [
+    "4c9370",
+    "4c8e68"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8e89",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8e89",
+  "jp": "ベレッタM92FSオートマチック\n9mmパラベラム弾を撃ち出す自動銃だ<END:0>",
+  "ko": "베레타 M92FS 오토매틱\n9mm 파라벨럼탄을 쏘는 자동권총<END:0>",
+  "sites": [
+   [
+    "4c9374",
+    "4c8e89"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8eb4",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8eb4",
+  "jp": "レミントンM870\nひろいレンジを攻撃できる銃だ<END:0>",
+  "ko": "레밍턴 M870\n넓은 범위를 공격할 수 있는 총<END:0>",
+  "sites": [
+   [
+    "4c9378",
+    "4c8eb4"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8ed1",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8ed1",
+  "jp": "357マグナム弾を撃ち出せる銃\n強力だが、あつかいづらい<END:0>",
+  "ko": "357 매그넘탄을 쏘는 총\n강력하지만 다루기 어렵다<END:0>",
+  "sites": [
+   [
+    "4c937c",
+    "4c8ed1"
+   ],
+   [
+    "4c9380",
+    "4c8ed1"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8ef5",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8ef5",
+  "jp": "燃料がMAXの時なら\n8secは火炎を射出し続けられる<END:0>",
+  "ko": "연료가 가득 차 있으면\n8초간 화염을 계속 뿜을 수 있다<END:0>",
+  "sites": [
+   [
+    "4c9384",
+    "4c8ef5"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8f1a",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8f1a",
+  "jp": "グレネード弾、火炎弾、硫酸弾\nこれらの弾薬を射出できるランチャー<END:0>",
+  "ko": "그레네이드탄, 화염탄, 황산탄\n이 탄들을 발사할 수 있는 런처<END:0>",
+  "sites": [
+   [
+    "4c9388",
+    "4c8f1a"
+   ],
+   [
+    "4c938c",
+    "4c8f1a"
+   ],
+   [
+    "4c9390",
+    "4c8f1a"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8f47",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8f47",
+  "jp": "これならどんなヤツでも一撃だ<END:0>",
+  "ko": "이거라면 어떤 놈이든 한 방이다<END:0>",
+  "sites": [
+   [
+    "4c9394",
+    "4c8f47"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8f59",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8f59",
+  "jp": "ベレッタに用いるマガジンケースだ<END:0>",
+  "ko": "베레타에 쓰는 탄창이다<END:0>",
+  "sites": [
+   [
+    "4c9398",
+    "4c8f59"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8f6c",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8f6c",
+  "jp": "ショットガンに用いる弾<END:0>",
+  "ko": "샷건에 쓰는 탄<END:0>",
+  "sites": [
+   [
+    "4c939c",
+    "4c8f6c"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8f7b",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8f7b",
+  "jp": "マグナム弾より強力で危険な弾薬\nコルトパイソンに使用できる<END:0>",
+  "ko": "매그넘탄보다 강력하고 위험한 탄\n콜트 파이슨에 쓸 수 있다<END:0>",
+  "sites": [
+   [
+    "4c93a0",
+    "4c8f7b"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8fa3",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8fa3",
+  "jp": "357マグナム弾\nコルトパイソンに使用できる<END:0>",
+  "ko": "357 매그넘탄\n콜트 파이슨에 쓸 수 있다<END:0>",
+  "sites": [
+   [
+    "4c93a4",
+    "4c8fa3"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8fbe",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8fbe",
+  "jp": "火炎放射器に用いる燃剤が入っている<END:0>",
+  "ko": "화염방사기에 쓰는 연료가 들어 있다<END:0>",
+  "sites": [
+   [
+    "4c93a8",
+    "4c8fbe"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8fda",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8fda",
+  "jp": "グレネードガン用の強力な弾薬<END:0>",
+  "ko": "그레네이드 건용 강력한 탄<END:0>",
+  "sites": [
+   [
+    "4c93ac",
+    "4c8fda"
+   ],
+   [
+    "4c93b0",
+    "4c8fda"
+   ],
+   [
+    "4c93b4",
+    "4c8fda"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c8fef",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c8fef",
+  "jp": "薬剤を入れるためのガラスビンだ<END:0>",
+  "ko": "약품을 담기 위한 유리병이다<END:0>",
+  "sites": [
+   [
+    "4c93b8",
+    "4c8fef"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9003",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9003",
+  "jp": "ビンの中に水が入っている<END:0>",
+  "ko": "병 안에 물이 들어 있다<END:0>",
+  "sites": [
+   [
+    "4c93bc",
+    "4c9003"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9014",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9014",
+  "jp": "この薬からVーJOLTを成生できる<END:0>",
+  "ko": "이 약으로 V-JOLT를 만들 수 있다<END:0>",
+  "sites": [
+   [
+    "4c93c0",
+    "4c9014"
+   ],
+   [
+    "4c93c4",
+    "4c9014"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c902a",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c902a",
+  "jp": "これは必要とする薬ではない<END:0>",
+  "ko": "이건 필요한 약이 아니다<END:0>",
+  "sites": [
+   [
+    "4c93c8",
+    "4c902a"
+   ],
+   [
+    "4c93cc",
+    "4c902a"
+   ],
+   [
+    "4c93d0",
+    "4c902a"
+   ],
+   [
+    "4c93d4",
+    "4c902a"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c903c",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c903c",
+  "jp": "これでツタの化け物を倒す事が出来る<END:0>",
+  "ko": "이걸로 덩굴 괴물을 쓰러뜨릴 수 있다<END:0>",
+  "sites": [
+   [
+    "4c93d8",
+    "4c903c"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9055",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9055",
+  "jp": "銃身が壊れていて装備すると危険だ\n他の使い方でもあるのだろうか・・・<END:0>",
+  "ko": "총신이 망가져서 장비하면 위험하다\n다른 쓸모라도 있는 걸까…<END:0>",
+  "sites": [
+   [
+    "4c93dc",
+    "4c9055"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c920e",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c920e",
+  "jp": "特に気になる所はない<END:0>",
+  "ko": "특별히 신경 쓰이는 곳은 없다<END:0>",
+  "sites": [
+   [
+    "4c93e0",
+    "4c920e"
+   ],
+   [
+    "4c93e4",
+    "4c920e"
+   ],
+   [
+    "4c9404",
+    "4c920e"
+   ],
+   [
+    "4c9434",
+    "4c920e"
+   ],
+   [
+    "4c9438",
+    "4c920e"
+   ],
+   [
+    "4c943c",
+    "4c920e"
+   ],
+   [
+    "4c9440",
+    "4c920e"
+   ],
+   [
+    "4c9444",
+    "4c920e"
+   ],
+   [
+    "4c9448",
+    "4c920e"
+   ],
+   [
+    "4c944c",
+    "4c920e"
+   ],
+   [
+    "4c9450",
+    "4c920e"
+   ],
+   [
+    "4c9454",
+    "4c920e"
+   ],
+   [
+    "4c945c",
+    "4c920e"
+   ],
+   [
+    "4c9460",
+    "4c920e"
+   ],
+   [
+    "4c9464",
+    "4c920e"
+   ],
+   [
+    "4c9468",
+    "4c920e"
+   ],
+   [
+    "4c946c",
+    "4c920e"
+   ],
+   [
+    "4c949c",
+    "4c920e"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9083",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9083",
+  "jp": "すり合わせたようなキズ跡がついている\n何かにはめこんだりするのだろうか<END:0>",
+  "ko": "긁힌 듯한 흠집이 나 있다\n어딘가에 끼워 넣는 걸까<END:0>",
+  "sites": [
+   [
+    "4c93e8",
+    "4c9083"
+   ],
+   [
+    "4c93ec",
+    "4c9083"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c90ab",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c90ab",
+  "jp": "美しく光りかがやいている<END:0>",
+  "ko": "아름답게 빛나고 있다<END:0>",
+  "sites": [
+   [
+    "4c93f0",
+    "4c90ab"
+   ],
+   [
+    "4c93f4",
+    "4c90ab"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c90bb",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c90bb",
+  "jp": "タイトルは『月光』とある<END:0>",
+  "ko": "제목은 『월광』이라고 되어 있다<END:0>",
+  "sites": [
+   [
+    "4c93f8",
+    "4c90bb"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c90cd",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c90cd",
+  "jp": "最後の書（下）に入っていたメダルだ\n何か特別な使い方でもあるのだろうか？<END:0>",
+  "ko": "최후의 책(하)에 들어 있던 메달\n무언가 특별한 쓰임새가 있을까?<END:0>",
+  "sites": [
+   [
+    "4c93fc",
+    "4c90cd"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c90ff",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c90ff",
+  "jp": "最後の書（上）に入っていたメダルだ\n何か特別な使い方でもあるのだろうか？<END:0>",
+  "ko": "최후의 책(상)에 들어 있던 메달\n무언가 특별한 쓰임새가 있을까?<END:0>",
+  "sites": [
+   [
+    "4c9400",
+    "4c90ff"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9131",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9131",
+  "jp": "これでエレベータを動かす事が出来る<END:0>",
+  "ko": "이걸로 엘리베이터를 움직일 수 있다<END:0>",
+  "sites": [
+   [
+    "4c9408",
+    "4c9131"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9148",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9148",
+  "jp": "何かの起動用ディスクのようだ<END:0>",
+  "ko": "무언가의 기동용 디스크 같다<END:0>",
+  "sites": [
+   [
+    "4c940c",
+    "4c9148"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c915c",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c915c",
+  "jp": "風をかたどった絵が刻まれている<END:0>",
+  "ko": "바람을 본뜬 그림이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4c9410",
+    "4c915c"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9170",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9170",
+  "jp": "これでブラッドに合図が出来る<END:0>",
+  "ko": "이걸로 브래드에게 신호할 수 있다<END:0>",
+  "sites": [
+   [
+    "4c9414",
+    "4c9170"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9184",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9184",
+  "jp": "研究レポートかなにかのようだが\nこのままではよくわからない<END:0>",
+  "ko": "연구 보고서 같은 것이지만\n이대로는 잘 모르겠다<END:0>",
+  "sites": [
+   [
+    "4c9418",
+    "4c9184"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c91a5",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c91a5",
+  "jp": "月をかたどった絵が刻まれている<END:0>",
+  "ko": "달을 본뜬 그림이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4c941c",
+    "4c91a5"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c91b9",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c91b9",
+  "jp": "星をかたどった絵が刻まれている<END:0>",
+  "ko": "별을 본뜬 그림이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4c9420",
+    "4c91b9"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c91cd",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c91cd",
+  "jp": "日をかたどった絵が刻まれている<END:0>",
+  "ko": "해를 본뜬 그림이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4c9424",
+    "4c91cd"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c91e1",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c91e1",
+  "jp": "タイプライターなどで使用する物だ<END:0>",
+  "ko": "타자기 등에 쓰는 물건이다<END:0>",
+  "sites": [
+   [
+    "4c9428",
+    "4c91e1"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c91f6",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c91f6",
+  "jp": "オイルはまだのこっている<END:0>",
+  "ko": "오일이 아직 남아 있다<END:0>",
+  "sites": [
+   [
+    "4c942c",
+    "4c91f6"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c921d",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c921d",
+  "jp": "カギ開け用のツール\n単純な構造のカギを開ける事が出来る<END:0>",
+  "ko": "자물쇠 따기용 도구\n단순한 구조의 자물쇠를 열 수 있다<END:0>",
+  "sites": [
+   [
+    "4c9430",
+    "4c921d"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9244",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9244",
+  "jp": "これは制御室に入るためのカギだ<END:0>",
+  "ko": "제어실에 들어가기 위한 열쇠다<END:0>",
+  "sites": [
+   [
+    "4c9458",
+    "4c9244"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9259",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9259",
+  "jp": "キズを全てなおす事が出来る<END:0>",
+  "ko": "상처를 모두 치료할 수 있다<END:0>",
+  "sites": [
+   [
+    "4c9470",
+    "4c9259"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c926c",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c926c",
+  "jp": "1回分しかない<END:0>",
+  "ko": "1회분밖에 없다<END:0>",
+  "sites": [
+   [
+    "4c9474",
+    "4c926c"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9277",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9277",
+  "jp": "この地方に自生しているハーブだ<END:0>",
+  "ko": "이 지방에 자생하는 허브다<END:0>",
+  "sites": [
+   [
+    "4c9478",
+    "4c9277"
+   ],
+   [
+    "4c947c",
+    "4c9277"
+   ],
+   [
+    "4c9480",
+    "4c9277"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c928c",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c928c",
+  "jp": "グリーンとレッドハーブを調合した物だ<END:0>",
+  "ko": "그린과 레드 허브를 조합한 것<END:0>",
+  "sites": [
+   [
+    "4c9484",
+    "4c928c"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c92a3",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c92a3",
+  "jp": "グリーンハーブを2つ調合した物だ<END:0>",
+  "ko": "그린 허브 2개를 조합한 것<END:0>",
+  "sites": [
+   [
+    "4c9488",
+    "4c92a3"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c92b8",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c92b8",
+  "jp": "グリーンとブルーハーブを調合した物だ<END:0>",
+  "ko": "그린과 블루 허브를 조합한 것<END:0>",
+  "sites": [
+   [
+    "4c948c",
+    "4c92b8"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c92cf",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c92cf",
+  "jp": "グリーン、ブルー、レッドの3つを\n調合した物だ<END:0>",
+  "ko": "그린, 블루, 레드 3가지를\n조합한 것<END:0>",
+  "sites": [
+   [
+    "4c9490",
+    "4c92cf"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c92eb",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c92eb",
+  "jp": "グリーンハーブを3つ調合した物だ<END:0>",
+  "ko": "그린 허브 3개를 조합한 것<END:0>",
+  "sites": [
+   [
+    "4c9494",
+    "4c92eb"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c9300",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c9300",
+  "jp": "グリーンハーブ2つにブルーハーブを\n調合した物だ<END:0>",
+  "ko": "그린 허브 2개에 블루 허브를\n조합한 것<END:0>",
+  "sites": [
+   [
+    "4c9498",
+    "4c9300"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c931d",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c931d",
+  "jp": "バッテリーはまだ生きている<END:0>",
+  "ko": "배터리는 아직 살아 있다<END:0>",
+  "sites": [
+   [
+    "4c94a0",
+    "4c931d"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c932d",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c932d",
+  "jp": "イングラム　Mー11\nベレッタとおなじ9mm弾を使用する<END:0>",
+  "ko": "잉그램 M-11\n베레타와 같은 9mm탄을 쓴다<END:0>",
+  "sites": [
+   [
+    "4c94a4",
+    "4c932d"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4c934e",
+  "group": "item_desc",
+  "kind": "msg",
+  "addr": "4c934e",
+  "jp": "フルオートで射撃できる\nライトウェイトマシンガンだ<END:0>",
+  "ko": "연사가 가능한\n경량 기관총이다<END:0>",
+  "sites": [
+   [
+    "4c94a8",
+    "4c934e"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd730",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd730",
+  "jp": "<COL:1><ITEM:0><COL:0>を取りますか？<YESNO:2>□　<END:0>",
+  "ko": "<COL:1><ITEM:0><COL:0>을(를) 가져갈까요?<YESNO:2>□　<END:0>",
+  "sites": [
+   [
+    "4cde58",
+    "4cd730"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd744",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd744",
+  "jp": "<COL:1><ITEM:0><COL:0>を入手した<END:0>",
+  "ko": "<COL:1><ITEM:0><COL:0>을(를) 입수했다<END:0>",
+  "sites": [
+   [
+    "4cde5c",
+    "4cd744"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd753",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd753",
+  "jp": "このままではアイテムを入手できない<END:0>",
+  "ko": "이대로는 아이템을 가질 수 없다<END:0>",
+  "sites": [
+   [
+    "4cde60",
+    "4cd753"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd768",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd768",
+  "jp": "<COL:1><ITEM:0><COL:0>を使った<END:0>",
+  "ko": "<COL:1><ITEM:0><COL:0>을(를) 사용했다<END:0>",
+  "sites": [
+   [
+    "4cde64",
+    "4cd768"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd775",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd775",
+  "jp": "<COL:1><ITEM:0><COL:0>を置きますか？<YESNO:2>□<END:1>",
+  "ko": "<COL:1><ITEM:0><COL:0>을(를) 놓을까요?<YESNO:2>□<END:1>",
+  "sites": [
+   [
+    "4cde68",
+    "4cd775"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd789",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd789",
+  "jp": "<COL:1><ITEM:0><COL:0>を使いますか？<YESNO:2>□<END:1>",
+  "ko": "<COL:1><ITEM:0><COL:0>을(를) 쓸까요?<YESNO:2>□<END:1>",
+  "sites": [
+   [
+    "4cde6c",
+    "4cd789"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd79d",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd79d",
+  "jp": "<COL:1><ITEM:0><COL:0>を\nファイルにとじました<PAGE:0><END:1>",
+  "ko": "<COL:1><ITEM:0><COL:0>을(를)\n파일에 철했습니다<PAGE:0><END:1>",
+  "sites": [
+   [
+    "4cde70",
+    "4cd79d"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd7b3",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd7b3",
+  "jp": "もうこのカギは必要ないようだ\nすてますか？<YESNO:2>□\n<END:0>",
+  "ko": "이제 이 열쇠는 필요 없는 것 같다\n버릴까요?<YESNO:2>□\n<END:0>",
+  "sites": [
+   [
+    "4cde74",
+    "4cd7b3"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd7d0",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd7d0",
+  "jp": "\n<C4:0>　　　　<C4:2>カギがかかっている<PAGE:0>\n<C4:0>　　　　<C4:2>剣の形が刻まれている<END:0>",
+  "ko": "\n<C4:0><C4:2>잠겨 있다<PAGE:0>\n<C4:0><C4:2>검 모양이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cde78",
+    "4cd7d0"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd7fc",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd7fc",
+  "jp": "\n<C4:0>　　　　<C4:2>カギがかかっている<PAGE:0>\n<C4:0>　　　　<C4:2>鎧の形が刻まれている<END:0>",
+  "ko": "\n<C4:0><C4:2>잠겨 있다<PAGE:0>\n<C4:0><C4:2>갑옷 모양이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cde7c",
+    "4cd7fc"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd828",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd828",
+  "jp": "\n<C4:0>　　　　<C4:2>カギがかかっている<PAGE:0>\n<C4:0>　　　　<C4:2>盾の形が刻まれている<END:0>",
+  "ko": "\n<C4:0><C4:2>잠겨 있다<PAGE:0>\n<C4:0><C4:2>방패 모양이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cde80",
+    "4cd828"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd854",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd854",
+  "jp": "\n<C4:0>　　　　<C4:2>カギがかかっている<PAGE:0>\n<C4:0>　　　　<C4:2>兜の形が刻まれている<END:0>",
+  "ko": "\n<C4:0><C4:2>잠겨 있다<PAGE:0>\n<C4:0><C4:2>투구 모양이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cde84",
+    "4cd854"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd880",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd880",
+  "jp": "\n<C4:0>　　<C4:2>ドアは属重にロックされている<PAGE:0>\n<C4:0>　　　　<C4:2>右にプレートがある<END:0>",
+  "ko": "\n<C4:0><C4:2>문이 단단히 잠겨 있다<PAGE:0>\n<C4:0><C4:2>오른쪽에 플레이트가 있다<END:0>",
+  "sites": [
+   [
+    "4cde88",
+    "4cd880"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd8ae",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd8ae",
+  "jp": "\n<C4:0>　　　　<C4:2>カギがかかっている<PAGE:0>\n<C4:0>　　<C4:2>ドアに〃クローゼット〃とある<END:0>",
+  "ko": "\n<C4:0><C4:2>잠겨 있다<PAGE:0>\n<C4:0><C4:2>문에 \"옷장\"이라고 쓰여 있다<END:0>",
+  "sites": [
+   [
+    "4cde8c",
+    "4cd8ae"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd8db",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd8db",
+  "jp": "\n<C4:0>　　　　<C4:2>カギがかかっている<PAGE:0>\n<C4:0>　　<C4:2>プレートに〃002〃とある<END:0>",
+  "ko": "\n<C4:0><C4:2>잠겨 있다<PAGE:0>\n<C4:0><C4:2>플레이트에 \"002\"라고 쓰여 있다<END:0>",
+  "sites": [
+   [
+    "4cde90",
+    "4cd8db"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd907",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd907",
+  "jp": "\n<C4:0>　　　　<C4:2>カギがかかっている<PAGE:0>\n<C4:0>　　<C4:2>プレートに〃003〃とある<END:0>",
+  "ko": "\n<C4:0><C4:2>잠겨 있다<PAGE:0>\n<C4:0><C4:2>플레이트에 \"003\"이라고 쓰여 있다<END:0>",
+  "sites": [
+   [
+    "4cde94",
+    "4cd907"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd933",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd933",
+  "jp": "\n<C4:0>　　　　<C4:2>カギがかかっている<PAGE:0>\n<C4:0>　　　<C4:2>ドアに〃制御室〃とある<END:0>",
+  "ko": "\n<C4:0><C4:2>잠겨 있다<PAGE:0>\n<C4:0><C4:2>문에 \"제어실\"이라고 쓰여 있다<END:0>",
+  "sites": [
+   [
+    "4cde98",
+    "4cd933"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd961",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd961",
+  "jp": "\n<C4:0>　　　　　　<C4:2>〃動力室〃<PAGE:0>\n<C4:0>　　<C4:2>ドアは属重にロックされている<END:0>",
+  "ko": "\n<C4:0><C4:2>\"동력실\"<PAGE:0>\n<C4:0><C4:2>문이 단단히 잠겨 있다<END:0>",
+  "sites": [
+   [
+    "4cde9c",
+    "4cd961"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd991",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd991",
+  "jp": "\n<C4:0>　　　　<C4:2>カギがかかっている<END:0>",
+  "ko": "\n<C4:0><C4:2>잠겨 있다<END:0>",
+  "sites": [
+   [
+    "4cdea0",
+    "4cd991"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd9a5",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd9a5",
+  "jp": "\n<C4:0>　　<C4:2>向こうからカギがかかっている<END:0>",
+  "ko": "\n<C4:0><C4:2>반대편에서 잠겨 있다<END:0>",
+  "sites": [
+   [
+    "4cdea4",
+    "4cd9a5"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd9bd",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd9bd",
+  "jp": "\n<C4:0>　　　　　　<C4:2>カギを外した<END:0>",
+  "ko": "\n<C4:0><C4:2>자물쇠를 열었다<END:0>",
+  "sites": [
+   [
+    "4cdea8",
+    "4cd9bd"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd9d1",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd9d1",
+  "jp": "\n<C4:0>　　　　<C4:2>カギがかかっている<PAGE:0>\n<C4:0>　　<C4:2>キーピックを使えば開きそうだ<END:0>",
+  "ko": "\n<C4:0><C4:2>잠겨 있다<PAGE:0>\n<C4:0><C4:2>키 픽을 쓰면 열릴 것 같다<END:0>",
+  "sites": [
+   [
+    "4cdeac",
+    "4cd9d1"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd9fe",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd9fe",
+  "jp": "\n<C4:0>　　　　　<C4:2>急がなくては！<END:0>",
+  "ko": "\n<C4:0><C4:2>서둘러야 해!<END:0>",
+  "sites": [
+   [
+    "4cdeb0",
+    "4cd9fe"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cda12",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cda12",
+  "jp": "\n<C4:0>　　　　<C4:2>調べている時間はない<END:0>",
+  "ko": "\n<C4:0><C4:2>조사할 시간이 없다<END:0>",
+  "sites": [
+   [
+    "4cdeb4",
+    "4cda12"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cda2a",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cda2a",
+  "jp": "\n<C4:0>　　　<C4:2>机にカギがかかっている<END:0>",
+  "ko": "\n<C4:0><C4:2>책상이 잠겨 있다<END:0>",
+  "sites": [
+   [
+    "4cdeb8",
+    "4cda2a"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cda40",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cda40",
+  "jp": "\n<C4:0>　　　<C4:2>机にカギがかかっている<PAGE:0><COL:1><ITEM:0><COL:0>を使いますか？<YESNO:2>□<END:1>",
+  "ko": "\n<C4:0><C4:2>책상이 잠겨 있다<PAGE:0><COL:1><ITEM:0><COL:0>을(를) 쓸까요?<YESNO:2>□<END:1>",
+  "sites": [
+   [
+    "4cdebc",
+    "4cda40"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cda6a",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cda6a",
+  "jp": "\n<C4:0>　　　　　　クリス・・・<C4:16><PAGE:48>\n　<C4:0>　　　　　クリス・・・<C4:2><END:48>",
+  "ko": "\n<C4:0>크리스…<C4:16><PAGE:48>\n<C4:0>크리스…<C4:2><END:48>",
+  "sites": [
+   [
+    "4cdec0",
+    "4cda6a"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cda90",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cda90",
+  "jp": "<C4:2>They　have　escaped\ninto　the　mansion<PAGE:48>where　they　thought\nit　was　safe．<PAGE:48>　　　　　　Yet・・・<END:48>",
+  "ko": "<C4:2>그들은 안전하다고\n믿었던 저택으로<PAGE:48>몸을 피했다<PAGE:48>그러나…<END:48>",
+  "sites": [
+   [
+    "4cdec4",
+    "4cda90"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdae6",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdae6",
+  "jp": "<C4:0>　　<C4:2>You　have　once\n<C4:0>　　<C4:2>again　entered<PAGE:48><C4:0>　<C4:2>the　world　of\n<C4:0>　<C4:2>survival　horror．<PAGE:48><C4:0>　　　　<C4:2>Good　luck！<END:48>",
+  "ko": "<C4:0><C4:2>당신은 다시 한번\n<C4:0><C4:2>서바이벌 호러의<PAGE:48><C4:0><C4:2>세계에\n<C4:0><C4:2>발을 들였다<PAGE:48><C4:0><C4:2>행운을 빈다!<END:48>",
+  "sites": [
+   [
+    "4cdec8",
+    "4cdae6"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdb4d",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdb4d",
+  "jp": "<C4:0>　　　<C4:2>Be　smart！\n<C4:0>　　　<C4:2>Fighting　foes<PAGE:48><C4:0>　　<C4:2>isn’t　the　only\n<C4:0>　　<C4:2>way　to　survive<PAGE:48><C4:0>　　　<C4:2>this　horror．<END:64>",
+  "ko": "<C4:0><C4:2>현명하게 행동하라!\n<C4:0><C4:2>적과 싸우는 것만이<PAGE:48><C4:0><C4:2>이 공포에서 살아남는\n<C4:0><C4:2>유일한 방법은<PAGE:48><C4:0><C4:2>아니다.<END:64>",
+  "sites": [
+   [
+    "4cdecc",
+    "4cdb4d"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdbb5",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdbb5",
+  "jp": "\n<C4:0>　　　　<C4:2>古いタイプライターだ<PAGE:0><C4:0>　　<C4:2><COL:1>インクリボン<COL:0>があれば、\n<C4:0>　　<C4:2>調査状況をセーブできるのだが<END:0>",
+  "ko": "\n<C4:0><C4:2>낡은 타자기다<PAGE:0><C4:0><C4:2><COL:1>잉크 리본<COL:0>이 있으면\n<C4:0><C4:2>조사 상황을 세이브할 수 있는데<END:0>",
+  "sites": [
+   [
+    "4cded0",
+    "4cdbb5"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdbfb",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdbfb",
+  "jp": "<C4:0>　　　<C4:2>古いタイプライターだ\n<C4:0>　　　<C4:2>調査状況をセーブできます<PAGE:0><COL:1>インクリボン<COL:0>を使いますか？<YESNO:0><END:0>",
+  "ko": "<C4:0><C4:2>낡은 타자기다\n<C4:0><C4:2>조사 상황을 세이브할 수 있다<PAGE:0><COL:1>잉크 리본<COL:0>을 쓸까요?<YESNO:0><END:0>",
+  "sites": [
+   [
+    "4cded4",
+    "4cdbfb"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdc3d",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdc3d",
+  "jp": "<C4:0>　　　<C4:2>古いタイプライターがある<PAGE:0><C4:0>　　　<C4:2>調査状況をセーブできます\nセーブしますか？<YESNO:0><END:0>",
+  "ko": "<C4:0><C4:2>낡은 타자기가 있다<PAGE:0><C4:0><C4:2>조사 상황을 세이브할 수 있다\n세이브할까요?<YESNO:0><END:0>",
+  "sites": [
+   [
+    "4cded8",
+    "4cdc3d"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd7ed",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd7ed",
+  "jp": "剣の形が刻まれている<END:0>",
+  "ko": "검 모양이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cdedc",
+    "4cd7ed"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd819",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd819",
+  "jp": "鎧の形が刻まれている<END:0>",
+  "ko": "갑옷 모양이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cdee0",
+    "4cd819"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd845",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd845",
+  "jp": "盾の形が刻まれている<END:0>",
+  "ko": "방패 모양이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cdee4",
+    "4cd845"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cd871",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cd871",
+  "jp": "兜の形が刻まれている<END:0>",
+  "ko": "투구 모양이 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cdee8",
+    "4cd871"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdc77",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdc77",
+  "jp": "〃002〃と刻まれている<END:0>",
+  "ko": "\"002\"라고 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cdeec",
+    "4cdc77"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdc88",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdc88",
+  "jp": "〃003〃と刻まれている<END:0>",
+  "ko": "\"003\"이라고 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cdef0",
+    "4cdc88"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdc99",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdc99",
+  "jp": "机を開けるカギのようだ<END:0>",
+  "ko": "책상을 여는 열쇠 같다<END:0>",
+  "sites": [
+   [
+    "4cdef4",
+    "4cdc99"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdca8",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdca8",
+  "jp": "変わったマークが刻まれている<END:0>",
+  "ko": "특이한 마크가 새겨져 있다<END:0>",
+  "sites": [
+   [
+    "4cdef8",
+    "4cdca8"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdcba",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdcba",
+  "jp": "特別なコーティングがされている\nかなり重要なカギのようだ・・・<END:0>",
+  "ko": "특수한 코팅이 되어 있다\n상당히 중요한 열쇠인 것 같다…<END:0>",
+  "sites": [
+   [
+    "4cdefc",
+    "4cdcba"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdcdf",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdcdf",
+  "jp": "どこかにクローゼットがあるはずだ<END:0>",
+  "ko": "어딘가에 옷장이 있을 것이다<END:0>",
+  "sites": [
+   [
+    "4cdf00",
+    "4cdcdf"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdcf1",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdcf1",
+  "jp": "先が四角形になっている<END:0>",
+  "ko": "끝이 사각형으로 되어 있다<END:0>",
+  "sites": [
+   [
+    "4cdf04",
+    "4cdcf1"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdd02",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdd02",
+  "jp": "先が六角形になっている<END:0>",
+  "ko": "끝이 육각형으로 되어 있다<END:0>",
+  "sites": [
+   [
+    "4cdf08",
+    "4cdd02"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdd13",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdd13",
+  "jp": "全て中身は白紙になっている\n特別な使い方でもあるのだろうか・・・<END:0>",
+  "ko": "내용은 모두 백지다\n특별한 사용법이라도 있는 걸까…<END:0>",
+  "sites": [
+   [
+    "4cdf0c",
+    "4cdd13"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdd3e",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdd3e",
+  "jp": "本の中にメダルが入っていた<END:0>",
+  "ko": "책 속에 메달이 들어 있었다<END:0>",
+  "sites": [
+   [
+    "4cdf10",
+    "4cdd3e"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdd50",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdd50",
+  "jp": "植物を枯らすために用いられる除草剤だ<END:0>",
+  "ko": "식물을 말려 죽이는 데 쓰는 제초제다<END:0>",
+  "sites": [
+   [
+    "4cdf14",
+    "4cdd50"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdd6b",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdd6b",
+  "jp": "<COL:1><ITEM:0><COL:0>がセットされている<END:0>",
+  "ko": "<COL:1><ITEM:0><COL:0>이(가) 세트되어 있다<END:0>",
+  "sites": [
+   [
+    "4cdf18",
+    "4cdd6b"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdd7c",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdd7c",
+  "jp": "これはもう必要ないだろう<END:0>",
+  "ko": "이건 이제 필요 없을 것이다<END:0>",
+  "sites": [
+   [
+    "4cdf1c",
+    "4cdd7c"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdd8c",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdd8c",
+  "jp": "ここでまぜるのは危険だ<END:0>",
+  "ko": "여기서 섞는 것은 위험하다<END:0>",
+  "sites": [
+   [
+    "4cdf20",
+    "4cdd8c"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdd9b",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdd9b",
+  "jp": "毒ガスが発生した！<END:0>",
+  "ko": "독가스가 발생했다!<END:0>",
+  "sites": [
+   [
+    "4cdf24",
+    "4cdd9b"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdda9",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdda9",
+  "jp": "調合に失敗したようだ\n消えてしまった<END:0>",
+  "ko": "조합에 실패한 것 같다\n사라져 버렸다<END:0>",
+  "sites": [
+   [
+    "4cdf28",
+    "4cdda9"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cddc2",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cddc2",
+  "jp": "薬草を調合しますか？<YESNO:0><END:0>",
+  "ko": "약초를 조합할까요?<YESNO:0><END:0>",
+  "sites": [
+   [
+    "4cdf2c",
+    "4cddc2"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cddd4",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cddd4",
+  "jp": "調合しても意味がなさそうだ<END:0>",
+  "ko": "조합해도 의미가 없을 것 같다<END:0>",
+  "sites": [
+   [
+    "4cdf30",
+    "4cddd4"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cdde7",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cdde7",
+  "jp": "これだけでは使えない<END:0>",
+  "ko": "이것만으로는 쓸 수 없다<END:0>",
+  "sites": [
+   [
+    "4cdf34",
+    "4cdde7"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cde07",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cde07",
+  "jp": "ここでは使えない<END:0>",
+  "ko": "여기서는 쓸 수 없다<END:0>",
+  "sites": [
+   [
+    "4cdf38",
+    "4cde07"
+   ],
+   [
+    "4cdf40",
+    "4cde07"
+   ],
+   [
+    "4cdf44",
+    "4cde07"
+   ],
+   [
+    "4cdf48",
+    "4cde07"
+   ],
+   [
+    "4cdf4c",
+    "4cde07"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cddf4",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cddf4",
+  "jp": "別の薬剤とまぜることができる<END:0>",
+  "ko": "다른 약제와 섞을 수 있다<END:0>",
+  "sites": [
+   [
+    "4cdf3c",
+    "4cddf4"
+   ]
+  ]
+ },
+ {
+  "id": "msg_4cde43",
+  "group": "system_msg",
+  "kind": "msg",
+  "addr": "4cde43",
+  "jp": "今は使う必要もなさそうだ<END:0>",
+  "ko": "지금은 쓸 필요가 없을 것 같다<END:0>",
+  "sites": [
+   [
+    "4cdf50",
+    "4cde43"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4aa1e0",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4aa1e0",
+  "jp": "調べる／決定／攻撃",
+  "ko": "조사/결정/공격",
+  "sites": [
+   [
+    "40572b",
+    "4aa1e0"
+   ],
+   [
+    "405c4e",
+    "4aa1e0"
+   ],
+   [
+    "4857a8",
+    "4aa1e0"
+   ],
+   [
+    "486ae0",
+    "4aa1e0"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4aa1f0",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4aa1f0",
+  "jp": "取り消し／ダッシュ",
+  "ko": "취소/대시",
+  "sites": [
+   [
+    "405745",
+    "4aa1f0"
+   ],
+   [
+    "405c69",
+    "4aa1f0"
+   ],
+   [
+    "4857d3",
+    "4aa1f0"
+   ],
+   [
+    "486b0b",
+    "4aa1f0"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4aa200",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4aa200",
+  "jp": "攻撃体　",
+  "ko": "공격 자세",
+  "sites": [
+   [
+    "40575f",
+    "4aa200"
+   ],
+   [
+    "405c84",
+    "4aa200"
+   ],
+   [
+    "4857f3",
+    "4aa200"
+   ],
+   [
+    "486b2b",
+    "4aa200"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4aa208",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4aa208",
+  "jp": "前進／上　攻撃体　",
+  "ko": "전진/위 공격 자세",
+  "sites": [
+   [
+    "405c99",
+    "4aa208"
+   ],
+   [
+    "485813",
+    "4aa208"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4aa218",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4aa218",
+  "jp": "後退／下　攻撃体　",
+  "ko": "후퇴/아래 공격 자세",
+  "sites": [
+   [
+    "405cba",
+    "4aa218"
+   ],
+   [
+    "485833",
+    "4aa218"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4aa228",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4aa228",
+  "jp": "右回転",
+  "ko": "우회전",
+  "sites": [
+   [
+    "405cd5",
+    "4aa228"
+   ],
+   [
+    "485853",
+    "4aa228"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4aa230",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4aa230",
+  "jp": "左回転",
+  "ko": "좌회전",
+  "sites": [
+   [
+    "405cf0",
+    "4aa230"
+   ],
+   [
+    "485873",
+    "4aa230"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4aa238",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4aa238",
+  "jp": "サブ　面の開　",
+  "ko": "서브 화면 열기",
+  "sites": [
+   [
+    "405779",
+    "4aa238"
+   ],
+   [
+    "405d0b",
+    "4aa238"
+   ],
+   [
+    "485893",
+    "4aa238"
+   ],
+   [
+    "486b4b",
+    "4aa238"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4aa248",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4aa248",
+  "jp": "オプションの　定",
+  "ko": "옵션 설정",
+  "sites": [
+   [
+    "40578e",
+    "4aa248"
+   ],
+   [
+    "405d26",
+    "4aa248"
+   ],
+   [
+    "4858b3",
+    "4aa248"
+   ],
+   [
+    "486b6b",
+    "4aa248"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4cbba8",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4cbba8",
+  "jp": "調査／攻撃",
+  "ko": "조사/공격",
+  "sites": [
+   [
+    "488097",
+    "4cbba8"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4cbbb8",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4cbbb8",
+  "jp": "ダッシュ",
+  "ko": "대시",
+  "sites": [
+   [
+    "4880a3",
+    "4cbbb8"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4cbbc0",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4cbbc0",
+  "jp": "　構える　",
+  "ko": "　겨누기　",
+  "sites": [
+   [
+    "4880af",
+    "4cbbc0"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4cbbc8",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4cbbc8",
+  "jp": "メニュー",
+  "ko": "메뉴",
+  "sites": [
+   [
+    "4880bd",
+    "4cbbc8"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4cbbd0",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4cbbd0",
+  "jp": "オプション",
+  "ko": "옵션",
+  "sites": [
+   [
+    "4880cb",
+    "4cbbd0"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4cbbd8",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4cbbd8",
+  "jp": "　未使用　",
+  "ko": "　미사용　",
+  "sites": [
+   [
+    "4880d2",
+    "4cbbd8"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4b1130",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4b1130",
+  "jp": "データを上書きしてよろしいですか",
+  "ko": "데이터를 덮어써도 되겠습니까?",
+  "sites": [
+   [
+    "435eff",
+    "4b1130"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4b1148",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4b1148",
+  "jp": "　はい　　いいえ",
+  "ko": "　예　　　아니오",
+  "sites": [
+   [
+    "435f15",
+    "4b1148"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4b1028",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4b1028",
+  "jp": "ハードディスクの空きがたりません",
+  "ko": "하드디스크 공간이 부족합니다",
+  "sites": [
+   [
+    "436376",
+    "4b1028"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4b0ff8",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4b0ff8",
+  "jp": "　　　しない",
+  "ko": "　　　안 함",
+  "sites": [
+   [
+    "43641e",
+    "4b0ff8"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4b1004",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4b1004",
+  "jp": "セーブ",
+  "ko": "세이브",
+  "sites": [
+   [
+    "4b1008",
+    "4b1004"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4b1000",
+  "group": "menu",
+  "kind": "menu",
+  "addr": "4b1000",
+  "jp": "ロード",
+  "ko": "로드",
+  "sites": [
+   [
+    "4b100c",
+    "4b1000"
+   ]
+  ]
+ },
+ {
+  "id": "menu_4b1010",
+  "group": "save_name",
+  "kind": "menu",
+  "addr": "4b1010",
+  "jp": "クリス",
+  "ko": "크리스",
+  "sites": [
+   [
+    "4b1020",
+    "4b1010"
+   ]
+  ],
+  "fixed_len": 6
+ },
+ {
+  "id": "menu_4b1018",
+  "group": "save_name",
+  "kind": "menu",
+  "addr": "4b1018",
+  "jp": "ジル　",
+  "ko": "질",
+  "sites": [
+   [
+    "4b1024",
+    "4b1018"
+   ]
+  ],
+  "fixed_len": 6
+ },
+ {
+  "id": "menu_4b1068",
+  "group": "save_place",
+  "kind": "menu",
+  "addr": "4b1068",
+  "jp": "館　小部屋／1F",
+  "ko": "저택 작은방/1F",
+  "sites": [
+   [
+    "4b1110",
+    "4b1068"
+   ]
+  ],
+  "fixed_len": 16
+ },
+ {
+  "id": "menu_4b1080",
+  "group": "save_place",
+  "kind": "menu",
+  "addr": "4b1080",
+  "jp": "館　ホール／1F",
+  "ko": "저택 홀/1F",
+  "sites": [
+   [
+    "4b1114",
+    "4b1080"
+   ]
+  ],
+  "fixed_len": 16
+ },
+ {
+  "id": "menu_4b1098",
+  "group": "save_place",
+  "kind": "menu",
+  "addr": "4b1098",
+  "jp": "中庭　部屋／B1",
+  "ko": "안뜰 방/B1",
+  "sites": [
+   [
+    "4b1118",
+    "4b1098"
+   ]
+  ],
+  "fixed_len": 16
+ },
+ {
+  "id": "menu_4b10b0",
+  "group": "save_place",
+  "kind": "menu",
+  "addr": "4b10b0",
+  "jp": "　寄宿舎　／1F",
+  "ko": "기숙사/1F",
+  "sites": [
+   [
+    "4b111c",
+    "4b10b0"
+   ]
+  ],
+  "fixed_len": 16
+ },
+ {
+  "id": "menu_4b10c8",
+  "group": "save_place",
+  "kind": "menu",
+  "addr": "4b10c8",
+  "jp": "　研究所　／B3",
+  "ko": "연구소/B3",
+  "sites": [
+   [
+    "4b1120",
+    "4b10c8"
+   ]
+  ],
+  "fixed_len": 16
+ },
+ {
+  "id": "menu_4b10e0",
+  "group": "save_place",
+  "kind": "menu",
+  "addr": "4b10e0",
+  "jp": "館　　物置／1F",
+  "ko": "저택 창고/1F",
+  "sites": [
+   [
+    "4b1124",
+    "4b10e0"
+   ]
+  ],
+  "fixed_len": 16
+ },
+ {
+  "id": "menu_4b10f8",
+  "group": "save_place",
+  "kind": "menu",
+  "addr": "4b10f8",
+  "jp": "中庭　通路／B1",
+  "ko": "안뜰 통로/B1",
+  "sites": [
+   [
+    "4b1128",
+    "4b10f8"
+   ]
+  ],
+  "fixed_len": 16
+ },
+ {
+  "id": "ascii_4cdf54",
+  "group": "yesno",
+  "kind": "ascii",
+  "addr": "4cdf54",
+  "jp": "Yes  No",
+  "ko": "예    아니오",
+  "sites": [
+   [
+    "491dff",
+    "4cdf54"
+   ]
+  ]
+ }
+]
