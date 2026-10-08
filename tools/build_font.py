@@ -4,7 +4,8 @@ glyph atlas.
 Static glyphs live permanently in the game's font pages:
   page 0 cells 87..247 and 264..287 (single byte / F8 xx codes)
   page 1 cells 200..323             (F9 C8..FB / FA 00..47)
-Everything the item-name and menu renderers draw must be static. The most
+Everything the item-name and menu renderers draw must be static, and so
+must the narration shown right after the opening movie (STATIC_MSGS). The most
 frequent message glyphs fill the remaining static cells; all other glyphs go
 into the atlas and are copied into page 1 cells 0..199 by the DLL right
 before the message that needs them is shown.
@@ -33,6 +34,9 @@ PAGE1_STATIC = [288 + c for c in range(kocodec.DYN_CELLS, 324)]
 STATIC_CELLS = PAGE0_CELLS + PAGE1_STATIC
 # drawn by the ASCII renderer (byte = cell + 36 must fit in a byte)
 LOW_CELL_CHARS = '예아니오'
+# narration after the opening movie (one of the three): not drawn through
+# the message box, so the DLL never loads its dynamic glyphs
+STATIC_MSGS = {'msg_4cda90', 'msg_4cdae6', 'msg_4cdb4d'}
 
 
 def load_texts():
@@ -46,7 +50,7 @@ def load_texts():
             if not ko:
                 continue
             ko = kocodec.normalize(ko)
-            if e.get('kind') in ('item', 'menu', 'ascii'):
+            if e.get('kind') in ('item', 'menu', 'ascii') or e.get('id') in STATIC_MSGS:
                 static.append(ko)
             else:
                 msgs.append(ko)
@@ -63,7 +67,7 @@ def choose(static_texts, msg_texts):
     order = list(LOW_CELL_CHARS)
     order += [c for c, _ in need.most_common() if c not in order]
     if len(order) > len(STATIC_CELLS):
-        raise SystemExit('static glyphs needed by items/menus exceed capacity: %d' % len(order))
+        raise SystemExit('static glyphs needed by items/menus/narration exceed capacity: %d' % len(order))
     limit = int(os.environ.get('KOFONT_STATIC_MAX', len(STATIC_CELLS)))  # test hook
     for c, _ in freq.most_common():
         if len(order) >= min(limit, len(STATIC_CELLS)):
@@ -138,7 +142,7 @@ def main(game_dir):
         lines.append('  {0}')
     lines.append('};')
     open(os.path.join(ROOT, 'dll', 'ko_glyphs.h'), 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
-    print('glyphs: %d static (%d needed by items/menus), %d dynamic' % (
+    print('glyphs: %d static (%d needed by items/menus/narration), %d dynamic' % (
         len(static), len(set(c for t in static_texts for c in kocodec.glyph_chars(t))), len(dynamic)))
 
 
