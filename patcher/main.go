@@ -8,7 +8,9 @@
 // The Korean version is installed into its own folder, korean\, next to
 // japanese\ (which stays untouched), and the Steam launcher gets a "korean"
 // entry in its language list. Unchanged game data is hard-linked from
-// japanese\ (copied if the drive does not support links).
+// japanese\ (copied if the drive does not support links). Movies with
+// burned-in Japanese subtitles are replaced by links to the subtitle-free
+// North American ones from english\ (the DLL draws Korean subtitles).
 //
 // Without a folder argument the patcher looks in its own folder and in the
 // Steam library folders. Only XOR differences against the user's original
@@ -67,6 +69,20 @@ const (
 func md5hex(b []byte) string {
 	s := md5.Sum(b)
 	return hex.EncodeToString(s[:])
+}
+
+// fileMD5 returns the MD5 of a file, or "" if it cannot be read.
+func fileMD5(p string) string {
+	f, err := os.Open(p)
+	if err != nil {
+		return ""
+	}
+	defer f.Close()
+	h := md5.New()
+	if _, err := io.Copy(h, f); err != nil {
+		return ""
+	}
+	return hex.EncodeToString(h.Sum(nil))
 }
 
 func readPayload(name string) ([]byte, error) {
@@ -268,8 +284,19 @@ func install(game string, m manifest) error {
 		orig []byte // original to back up (in-place files)
 	}
 	var jobs []job
+	var links []fileEntry
 	patched := map[string]bool{}
 	for _, e := range m.Files {
+		if e.Mode == "link" {
+			// subtitle-free North American movie in place of a Japanese one
+			if fileMD5(filepath.Join(game, filepath.FromSlash(e.Src))) == e.OrigMD5 {
+				patched[strings.ToLower(e.Dest)] = true
+				links = append(links, e)
+			} else {
+				fmt.Printf("  %s 이(가) 없거나 원본과 달라 일본어판 영상을 씁니다 (일본어 자막을 가리고 한글 자막 표시)\n", e.Src)
+			}
+			continue
+		}
 		patched[strings.ToLower(e.Dest)] = true
 		diff, err := readPayload(e.Data)
 		if err != nil {
@@ -343,7 +370,20 @@ func install(game string, m manifest) error {
 			return err
 		}
 	}
+	for _, e := range links {
+		src := filepath.Join(game, filepath.FromSlash(e.Src))
+		dst := filepath.Join(game, filepath.FromSlash(e.Dest))
+		os.Remove(dst) // never write through a hard link
+		if os.Link(src, dst) != nil {
+			if err := copyFile(src, dst); err != nil {
+				return err
+			}
+		}
+	}
 	fmt.Printf("  한글 파일 %d개 설치\n", len(jobs))
+	if len(links) > 0 {
+		fmt.Printf("  자막 없는 북미판 영상 %d개 연결\n", len(links))
+	}
 	setLauncherLanguage(game, "", m.Target)
 	return nil
 }

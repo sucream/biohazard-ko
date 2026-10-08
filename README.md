@@ -15,6 +15,7 @@ Steam판 `4249100_Biohazard`의 **일본어 실행 파일(BIOHAZARD)** 을 기�
 - 패치에는 원본과의 차이(XOR diff)만 들어 있으며, 설치 전에 원본 파일의 해시를 검사합니다.
 - 일본어판으로 만든 기존 세이브는 슬롯의 지역명이 깨져 보일 수 있습니다(게임 진행에는 지장 없음).
 - 한글 번역은 일본어 원문을 기준으로 했고, 컷신 음성(영어)에 한글 자막이 표시됩니다.
+- 오프닝·엔딩 영상에도 한글 자막이 표시됩니다. 일본어 자막이 박힌 영상은 자막 없는 북미판 영상(같은 Steam 설치본의 `english` 폴더)을 하드 링크해 재생합니다.
 
 ## 동작 원리
 
@@ -28,6 +29,7 @@ Steam판 `4249100_Biohazard`의 **일본어 실행 파일(BIOHAZARD)** 을 기�
 | 문서(파일) | 일본어판은 문서가 이미지(`Item_m2/TEXTM_*.TIM`)라서 나눔명조로 다시 렌더링 |
 | UI 이미지 | 인벤토리 버튼(STATUS.TIM), 키 설정 도움말(OPTKEY03.TIM) 수정 |
 | 언어 분리 | `japanese` 를 `korean` 폴더로 미러링(데이터는 하드 링크, 바뀐 파일과 `version.dll` 만 실제 파일). 게임은 작업 폴더 기준 상대 경로(`./jpn/...`, `SAVE\`)로 데이터를 읽음 |
+| 영상 자막 | 영상은 MCI(MCIAVI)로 재생되고, 게임의 화면 래퍼(ddraw.dll)는 DrawDib의 디코딩 버퍼를 지켜보다가 Direct3D 화면에 올림(영상 창에 직접 그린 것은 화면에 안 나옴). `mciSendCommandA` 임포트를 가로채 어떤 영상이 몇 프레임부터 재생되는지 알아내고, `DrawDibDraw` 를 후킹해 자막 구간에서는 디코딩만 한 뒤 DrawDib 버퍼(320x240)에 자막을 그려 표시하고, 다음 프레임을 디코딩하기 전에 원래 픽셀로 되돌림(차분 프레임이 깨지지 않게). 글꼴은 맑은 고딕. 일본어 자막이 박힌 PJ/ED4/ED5는 북미판 pu/eu4/eu5 를 하드 링크 |
 | 런처 | .NET 런처(4249100_Launcher.exe)의 언어 목록·시작 처리·dxcfg.ini 저장 대상에 `korean` 을 추가 (`tools/launcher_patch`, Mono.Cecil로 IL 수정). 레지스트리/.reg 처리는 japanese와 같게 취급 |
 
 ## 개발자용: 빌드
@@ -35,7 +37,7 @@ Steam판 `4249100_Biohazard`의 **일본어 실행 파일(BIOHAZARD)** 을 기�
 필요: Python 3.11 (Pillow), zig 0.12 (32비트 DLL 컴파일), .NET 8 SDK (런처 패치 도구), Go 1.20 (패처)
 
 ```
-python build.py [게임폴더]          # 폰트, 문자열 표, 방 대사, 이미지, build/version.dll, build/4249100_Launcher.exe
+python build.py [게임폴더]          # 폰트, 문자열 표, 방 대사, 이미지, 영상 자막, build/version.dll, build/4249100_Launcher.exe
 python tools/make_patch.py [게임폴더] # patcher/payload 생성 (원본과의 XOR diff)
 cd patcher && go build -ldflags="-s -w" -o ../build/bh1_kor_patch.exe . && cd ..
 python tools/make_dist.py           # dist/BH1_KOR_Patch_v<버전>.zip
@@ -55,6 +57,7 @@ python tools/make_dist.py           # dist/BH1_KOR_Patch_v<버전>.zip
 - `translations/rdt_messages.json` — 방 대사 871개 (일본어 원문 `jp`, 북미판 참고 `en`, 번역 `ko`)
 - `translations/exe_strings.json` — 아이템 이름·설명, 시스템 메시지, 메뉴 250개
 - `translations/documents.json` — 문서 43장(반쪽 화면 86개)
+- `translations/movie_subtitles.json` — 영상 자막 28개 (`start`/`end` 는 일본어판 영상의 프레임 번호, 10fps)
 - `translations/GUIDE.md` — 용어집·문체·제어 태그 규칙
 
 검사: `python tools/check_tr.py translations/rdt_messages.json`, `python tools/check_docs.py`
@@ -65,6 +68,7 @@ python tools/make_dist.py           # dist/BH1_KOR_Patch_v<버전>.zip
 - `tools/jptable.py` — 일본어판 폰트 글리프 → 문자 표
 - `tools/kocodec.py` — 한글 문장 → 게임 바이트 코드, 가운데 정렬 재계산
 - `dll/kopatch.c` — 런타임 패처
+- `dll/movie.c` — 영상 자막. 테스트 빌드(`-DMOVIE_TEST='"PJ.avi"'`)는 부팅 때 나오는 타이틀 영상 OJ에 그 영상의 자막을 입히고, 자막이 바뀐 프레임을 게임 폴더에 `movtest_NN.bmp` 로 저장. `korean/JPN/Movie/oj.avi` 를 시험할 영상으로 잠시 바꿔 두고 사용. 화면 확인은 `work/play.py` 캡처(DPI 인식 모드)로 가능
 - `tools/launcher_patch/` — 런처에 `korean` 항목을 추가하는 IL 패치 도구 (C#, Mono.Cecil)
 
 ## 라이선스

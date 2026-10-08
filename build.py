@@ -1,4 +1,4 @@
-"""Build everything: fonts, string tables, room text, the patch DLL, the launcher.
+"""Build everything: fonts, string tables, room text, movie subtitles, the patch DLL, the launcher.
 
 usage: python build.py [game_dir]
 """
@@ -13,6 +13,7 @@ import build_exe  # noqa: E402
 import build_font  # noqa: E402
 import build_rooms  # noqa: E402
 import build_images  # noqa: E402
+import build_movies  # noqa: E402
 
 
 def main():
@@ -21,10 +22,11 @@ def main():
     build_exe.main()
     build_rooms.main(game)
     build_images.main(game)
+    build_movies.main(game)
     dll = os.path.join(ROOT, 'dll')
     subprocess.check_call(['zig', 'cc', '-target', 'x86-windows-gnu', '-shared', '-O2', '-s',
                            '-o', os.path.join(ROOT, 'build', 'version.dll'),
-                           'proxy.c', 'kopatch.c', 'version.def', '-luser32'], cwd=dll)
+                           'proxy.c', 'kopatch.c', 'movie.c', 'version.def', '-luser32', '-lgdi32'], cwd=dll)
     print('built build/version.dll')
     build_launcher(game)
 

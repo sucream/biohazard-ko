@@ -12,6 +12,9 @@ Manifest entries:
   {"dest": "korean/JPN/...", "mode": "xor", "src": "japanese/JPN/...", ...}
       dest = src XOR data (src must be the original file)
   {"dest": "korean/version.dll", "mode": "new", ...}
+  {"dest": "korean/JPN/Movie/pj.avi", "mode": "link", "src": "english/USA/Movie/pu.avi", ...}
+      hard link (or copy) of src if it matches orig_md5; otherwise the
+      Japanese movie stays and the DLL hides its subtitles
   {"dest": "4249100_Launcher.exe", "mode": "xor", "src": "4249100_Launcher.exe", "backup": true}
       patched in place; the original is kept in kopatch_backup/
 
@@ -27,6 +30,8 @@ import os
 import shutil
 import sys
 import zlib
+
+from build_movies import US_MOVIES
 
 ROOT = os.path.join(os.path.dirname(__file__), '..')
 TARGET = 'korean'
@@ -73,6 +78,15 @@ def main(game_dir):
         name = '%03d.bin' % len(files)
         open(os.path.join(out, name), 'wb').write(zlib.compress(new, 9))
         files.append({'dest': rel, 'mode': 'new', 'data': name, 'new_md5': md5(new), 'new_size': len(new)})
+    # movies with burned-in Japanese subtitles: link the subtitle-free North
+    # American ones (the DLL draws Korean subtitles over them)
+    for jp, us in US_MOVIES.items():
+        src = 'english/USA/Movie/' + us
+        orig = open(os.path.join(game_dir, src), 'rb').read()
+        name = [n for n in os.listdir(os.path.join(game_dir, 'japanese', 'JPN', 'Movie'))
+                if n.lower() == jp.lower() + '.avi'][0]
+        files.append({'dest': TARGET + '/JPN/Movie/' + name, 'mode': 'link', 'src': src,
+                      'orig_md5': md5(orig), 'orig_size': len(orig)})
     # launcher, patched in place
     add_xor('4249100_Launcher.exe', '4249100_Launcher.exe',
             open(os.path.join(build, '4249100_Launcher.exe'), 'rb').read(), backup=True)
@@ -82,7 +96,7 @@ def main(game_dir):
     manifest = {'name': 'Biohazard (1996) Korean patch', 'version': version, 'format': 2,
                 'source': 'japanese', 'target': TARGET, 'exe_md5': md5(exe), 'files': files}
     json.dump(manifest, open(os.path.join(out, 'manifest.json'), 'w'), indent=1)
-    total = sum(os.path.getsize(os.path.join(out, f['data'])) for f in files)
+    total = sum(os.path.getsize(os.path.join(out, f['data'])) for f in files if 'data' in f)
     print('patch payload v%s: %d files, %d KB' % (version, len(files), total // 1024))
 
 

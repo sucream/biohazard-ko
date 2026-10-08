@@ -23,6 +23,7 @@
 #include "ko_glyphs.h"
 
 void proxy_init(void);
+int ko_movie_init(void (*log)(const char *fmt, ...));
 
 /* game addresses (unpacked Biohazard.exe) */
 #define A_UNPACK_PROBE 0x4912c0
@@ -425,6 +426,7 @@ static void apply_patches(void)
     logf("fonts: %s", patch_fonts() ? "ok" : "FAILED");
     logf("text: %s", patch_text() ? "ok" : "FAILED");
     logf("option kanji: %s", patch_option_kanji() ? "ok" : "FAILED");
+    logf("movies: %s", ko_movie_init(logf) ? "ok" : "FAILED");
     flush_strings();
 }
 
