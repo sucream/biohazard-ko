@@ -387,6 +387,34 @@ static void flush_strings(void)
     }
 }
 
+/* The key-configuration screens draw the kanji of the Japanese labels that
+   fall outside the font (構 回 画 閉 設; codes 0x1e-0x22) as separate sprites
+   at fixed positions over blanks in the label strings. They would land on
+   top of the Korean labels, so those draw calls are removed (each is
+   push x4 / call 0x4927a0 / add esp,0x10, so dropping the call keeps the
+   stack balanced). */
+static const uint32_t kanji_overlays[] = {
+    0x4057bd, 0x4057db, 0x4057f9, 0x405d51, 0x405d69, 0x405d81, 0x405da0, 0x405db8,
+    0x405dd7, 0x405df6, 0x405e15, 0x4858e2, 0x4858ff, 0x48591c, 0x485940, 0x48595d,
+    0x485981, 0x4859a5, 0x4859c9, 0x486b9a, 0x486bbe, 0x486be2, 0x486c06,
+};
+
+static int patch_option_kanji(void)
+{
+    static const uint8_t nops[5] = {0x90, 0x90, 0x90, 0x90, 0x90};
+    size_t i;
+    for (i = 0; i < sizeof kanji_overlays / sizeof kanji_overlays[0]; i++) {
+        uint32_t a = kanji_overlays[i];
+        if (*(uint8_t *)a != 0xE8 || a + 5 + *(int32_t *)(a + 1) != 0x4927a0) {
+            logf("unexpected bytes at %08x", (unsigned)a);
+            return 0;
+        }
+    }
+    for (i = 0; i < sizeof kanji_overlays / sizeof kanji_overlays[0]; i++)
+        write_mem(kanji_overlays[i], nops, 5);
+    return 1;
+}
+
 static void apply_patches(void)
 {
     volatile uint8_t *probe = (volatile uint8_t *)A_UNPACK_PROBE;
@@ -396,6 +424,7 @@ static void apply_patches(void)
     }
     logf("fonts: %s", patch_fonts() ? "ok" : "FAILED");
     logf("text: %s", patch_text() ? "ok" : "FAILED");
+    logf("option kanji: %s", patch_option_kanji() ? "ok" : "FAILED");
     flush_strings();
 }
 
